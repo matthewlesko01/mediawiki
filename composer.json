@@ -113,4 +113,5 @@
 			"merge-dev": false
 		}
 	}
+	wfLoadSkin( 'apex' );
 }
