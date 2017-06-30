@@ -123,3 +123,4 @@ $wgDefaultSkin = "apex";
 # Add more configuration options below.
 # Loads skin for Apex
 wfLoadSkin( 'apex' );
+wfLoadSkin( 'Metrolook' );
