@@ -124,4 +124,10 @@ $wgDefaultSkin = "apex";
 # Loads skin for Apex
 wfLoadSkin( 'apex' );
 wfLoadSkin( 'Metrolook' );
-wfLoadExtension( '<VisualEditor>' );
+//MW>=1.25 and versions of WYSIWYG >= "1.5.6_0 [B551+02.07.2016]"
+wfLoadExtension( 'WYSIWYG' );
+
+//MW>=1.25 and versions of WYSIWYG >= "1.5.6_0 [B551+02.07.2016]" has dependency
+//to module of WikiEditor so it must be enabled too (or otherwise file
+//extension.json has to be edited manually to remove dependency)
+wfLoadExtension( 'WikiEditor' );
