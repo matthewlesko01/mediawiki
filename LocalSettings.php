@@ -124,3 +124,4 @@ $wgDefaultSkin = "apex";
 # Loads skin for Apex
 wfLoadSkin( 'apex' );
 wfLoadSkin( 'Metrolook' );
+wfLoadExtension( '<VisualEditor>' );
