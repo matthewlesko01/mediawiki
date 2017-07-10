@@ -131,3 +131,5 @@ wfLoadExtension( 'WYSIWYG' );
 //to module of WikiEditor so it must be enabled too (or otherwise file
 //extension.json has to be edited manually to remove dependency)
 wfLoadExtension( 'WikiEditor' );
+//to Add logo
+$wgLogo = $wgScriptPath . '/images/open-source-academy-logo.png';
