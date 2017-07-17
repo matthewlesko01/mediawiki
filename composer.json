@@ -99,6 +99,9 @@
 		"test": [
 			"composer lint",
 			"composer phpcs"
+		],
+		"compile": [
+		"chmod 755extensions/Scribunto/engines/LuaStandalone/binaries/lua5_1_5_linux_64_generic/lua/"
 		]
 	},
 	"config": {
