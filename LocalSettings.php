@@ -135,3 +135,4 @@ wfLoadExtension( 'WikiEditor' );
 $wgLogo = $wgScriptPath . '/images/open-source-academy-logo.png';
 require_once "$IP/extensions/Scribunto/Scribunto.php";
 $wgScribuntoDefaultEngine = 'luastandalone';
+require_once "$IP/extensions/DeleteBatch/DeleteBatch.php";
