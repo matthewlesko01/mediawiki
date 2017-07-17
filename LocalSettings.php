@@ -133,3 +133,5 @@ wfLoadExtension( 'WYSIWYG' );
 wfLoadExtension( 'WikiEditor' );
 //to Add logo
 $wgLogo = $wgScriptPath . '/images/open-source-academy-logo.png';
+require_once "$IP/extensions/Scribunto/Scribunto.php";
+$wgScribuntoDefaultEngine = 'luastandalone';
